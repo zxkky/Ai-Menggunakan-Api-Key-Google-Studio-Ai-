@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mammoth": "^1.11.0",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.104.0",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.2.2",
+    "xlsx": "^0.18.5"
+  }
+}

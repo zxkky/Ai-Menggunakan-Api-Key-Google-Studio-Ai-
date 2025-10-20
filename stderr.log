@@ -1,0 +1,786 @@
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/aibasopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/aibasopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/aibasopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/14/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+❌ Error: ReferenceError: fetch is not defined
+    at /home/u9kj93yf/aibasopeso.my.id/app.js:66:22
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/index.js:280:10)
+    at serveStatic (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/index.js:328:13)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/express/lib/router/index.js:280:10)
+    at /home/u9kj93yf/nodevenv/aibasopeso.my.id/20/lib/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Error API: {
+  code: 403,
+  message: 'Requests from referer <empty> are blocked.',
+  status: 'PERMISSION_DENIED',
+  details: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_HTTP_REFERRER_BLOCKED',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'Requests from referer <empty> are blocked.'
+    }
+  ]
+}
+Error API: {
+  code: 403,
+  message: 'Requests from referer <empty> are blocked.',
+  status: 'PERMISSION_DENIED',
+  details: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_HTTP_REFERRER_BLOCKED',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'Requests from referer <empty> are blocked.'
+    }
+  ]
+}
+Error API: {
+  code: 403,
+  message: 'Requests from referer <empty> are blocked.',
+  status: 'PERMISSION_DENIED',
+  details: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_HTTP_REFERRER_BLOCKED',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'Requests from referer <empty> are blocked.'
+    }
+  ]
+}
+Error API: {
+  code: 403,
+  message: 'Requests from referer <empty> are blocked.',
+  status: 'PERMISSION_DENIED',
+  details: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+      reason: 'API_KEY_HTTP_REFERRER_BLOCKED',
+      domain: 'googleapis.com',
+      metadata: [Object]
+    },
+    {
+      '@type': 'type.googleapis.com/google.rpc.LocalizedMessage',
+      locale: 'en-US',
+      message: 'Requests from referer <empty> are blocked.'
+    }
+  ]
+}

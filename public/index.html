@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat dengan Ai Basopeso</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex items-center justify-center p-0 sm:p-4">
+
+  <div class="w-full max-w-4xl bg-white sm:rounded-2xl shadow-2xl flex flex-col h-screen sm:h-[90vh] overflow-hidden">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-4 sm:p-6 flex flex-wrap items-center gap-3 sm:gap-4">
+      <div class="w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
+        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+        </svg>
+      </div>
+
+      <div class="flex-1 min-w-[150px]">
+        <h1 class="text-lg sm:text-2xl font-bold">Chat AI Basopeso</h1>
+        <p class="text-blue-100 text-xs sm:text-sm">Online - Siap membantu Anda</p>
+      </div>
+
+      <div class="flex gap-2 ml-auto">
+        <!-- History Button -->
+        <button onclick="toggleHistory()" class="bg-white/20 hover:bg-white/30 p-2 sm:p-3 rounded-xl transition backdrop-blur-sm" title="Lihat History">
+          <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </button>
+        <!-- Clear History -->
+        <button onclick="clearHistory()" class="bg-white/20 hover:bg-red-500 p-2 sm:p-3 rounded-xl transition backdrop-blur-sm" title="Hapus History">
+          <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Chat Messages -->
+    <main id="chatMessages" class="flex-1 overflow-y-auto p-3 sm:p-6 space-y-3 sm:space-y-4 bg-gray-50">
+      <div class="flex justify-center">
+        <span class="text-xs sm:text-sm text-gray-500 bg-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-sm">Mulai percakapan baru</span>
+      </div>
+    </main>
+
+    <!-- Preview Area -->
+    <section id="previewContainer" class="hidden bg-gray-100 border-t border-gray-200 p-4">
+      <div class="flex flex-wrap items-start gap-3">
+        <div class="relative">
+          <img id="imagePreview" src="" alt="Preview" class="hidden w-20 h-20 sm:w-24 sm:h-24 object-cover rounded-lg shadow-md">
+          <div id="filePreview" class="hidden w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-lg shadow-md flex flex-col items-center justify-center p-2">
+            <svg class="w-8 h-8 sm:w-10 sm:h-10 text-blue-500 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+            </svg>
+            <span id="fileExt" class="text-xs font-bold text-gray-600"></span>
+          </div>
+          <button onclick="removePreview()" class="absolute -top-2 -right-2 bg-red-500 text-white w-5 h-5 sm:w-6 sm:h-6 rounded-full flex items-center justify-center hover:bg-red-600 transition shadow-lg">×</button>
+        </div>
+        <div class="flex-1 min-w-[120px]">
+          <p id="previewFileName" class="text-sm font-semibold text-gray-700 truncate"></p>
+          <p id="previewFileSize" class="text-xs text-gray-500"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Input -->
+    <footer class="bg-white border-t border-gray-200 p-3 sm:p-4">
+      <div class="flex flex-wrap gap-2 items-end">
+        <!-- Upload Image -->
+        <label class="cursor-pointer bg-gray-100 hover:bg-gray-200 p-2 sm:p-3 rounded-xl transition flex items-center justify-center" title="Kirim Gambar">
+          <input type="file" id="imageInput" accept="image/*" class="hidden" onchange="handleImageSelect(event)">
+          <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
+        </label>
+
+        <!-- Upload File -->
+        <label class="cursor-pointer bg-gray-100 hover:bg-gray-200 p-2 sm:p-3 rounded-xl transition flex items-center justify-center" title="Kirim File (PDF, Excel, dll)">
+          <input type="file" id="fileInput" accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt" class="hidden" onchange="handleFileSelect(event)">
+          <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"/>
+          </svg>
+        </label>
+
+        <!-- Input -->
+        <input type="text" id="message" placeholder="Ketik pesan, kirim gambar, atau file..." class="flex-1 px-3 sm:px-3 py-2 sm:py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm sm:text-base transition" onkeypress="if(event.key === 'Enter') sendMessage()">
+
+        <!-- Send -->
+        <button onclick="sendMessage()" class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-xl hover:from-blue-700 hover:to-indigo-700 transition transform hover:scale-105 active:scale-95 font-semibold shadow-lg flex items-center gap-2 text-sm sm:text-base">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+          </svg>
+          Kirim
+        </button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Modal History -->
+  <div id="historyModal" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+    <div class="bg-white rounded-2xl shadow-2xl w-full max-w-3xl max-h-[80vh] flex flex-col">
+      <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-4 sm:p-6 rounded-t-2xl flex justify-between items-center">
+        <h2 class="text-lg sm:text-2xl font-bold">📜 History Chat</h2>
+        <button onclick="toggleHistory()" class="hover:bg-white/20 p-2 rounded-lg transition">
+          <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div id="historyContent" class="flex-1 overflow-y-auto p-4 sm:p-6 space-y-3">
+        <p class="text-gray-500 text-center text-sm sm:text-base">Memuat history...</p>
+      </div>
+    </div>
+  </div>
+  
+    <script>
+        const chatMessages = document.getElementById('chatMessages');
+        const messageInput = document.getElementById('message');
+        const imageInput = document.getElementById('imageInput');
+        const fileInput = document.getElementById('fileInput');
+        const imagePreview = document.getElementById('imagePreview');
+        const filePreview = document.getElementById('filePreview');
+        const previewContainer = document.getElementById('previewContainer');
+        const previewFileName = document.getElementById('previewFileName');
+        const previewFileSize = document.getElementById('previewFileSize');
+        const fileExt = document.getElementById('fileExt');
+        
+        let selectedImageBase64 = null;
+        let selectedFile = null;
+        let uploadType = null; // 'image' atau 'file'
+
+        // Load history saat halaman dimuat
+        window.addEventListener('load', loadChatHistory);
+
+        async function loadChatHistory() {
+            try {
+                const response = await fetch('/api/history');
+                const data = await response.json();
+                
+                chatMessages.innerHTML = '';
+                
+                if (data.history && data.history.length > 0) {
+                    data.history.forEach(item => {
+                        if (item.role === 'user') {
+                            if (item.file) {
+                                addMessage(item.message, true, null, item.file);
+                            } else {
+                                const imageSrc = item.image ? `data:image/jpeg;base64,${item.image}` : null;
+                                addMessage(item.message || '', true, imageSrc);
+                            }
+                        } else if (item.role === 'assistant') {
+                            addMessage(item.message, false);
+                        }
+                    });
+                } else {
+                    chatMessages.innerHTML = '<div class="flex justify-center"><span class="text-xs text-gray-500 bg-white px-4 py-2 rounded-full shadow-sm">Mulai percakapan baru</span></div>';
+                }
+            } catch (error) {
+                console.error('Error loading history:', error);
+            }
+        }
+
+        function handleImageSelect(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            if (!file.type.startsWith('image/')) {
+                alert('File harus berupa gambar!');
+                return;
+            }
+
+            uploadType = 'image';
+            selectedFile = null;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const base64String = e.target.result;
+                selectedImageBase64 = base64String.split(',')[1];
+                
+                imagePreview.src = base64String;
+                imagePreview.classList.remove('hidden');
+                filePreview.classList.add('hidden');
+                previewFileName.textContent = file.name;
+                previewFileSize.textContent = `${Math.round(file.size / 1024)} KB`;
+                previewContainer.classList.remove('hidden');
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            uploadType = 'file';
+            selectedFile = file;
+            selectedImageBase64 = null;
+
+            const ext = file.name.split('.').pop().toUpperCase();
+            
+            fileExt.textContent = ext;
+            filePreview.classList.remove('hidden');
+            imagePreview.classList.add('hidden');
+            previewFileName.textContent = file.name;
+            previewFileSize.textContent = `${Math.round(file.size / 1024)} KB`;
+            previewContainer.classList.remove('hidden');
+        }
+
+        function removePreview() {
+            selectedImageBase64 = null;
+            selectedFile = null;
+            uploadType = null;
+            imagePreview.src = '';
+            imagePreview.classList.add('hidden');
+            filePreview.classList.add('hidden');
+            previewContainer.classList.add('hidden');
+            imageInput.value = '';
+            fileInput.value = '';
+        }
+
+        function addMessage(text, isUser = false, imageSrc = null, fileInfo = null) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `flex ${isUser ? 'justify-end' : 'justify-start'} animate-fade-in`;
+            
+            const timestamp = new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
+            
+            let contentHTML = '';
+            
+            if (imageSrc) {
+                contentHTML += `<img src="${imageSrc}" class="rounded-lg mb-2 max-w-xs shadow-md">`;
+            }
+            
+            if (fileInfo) {
+                const ext = fileInfo.originalname.split('.').pop().toUpperCase();
+                contentHTML += `
+                    <div class="bg-white/20 rounded-lg p-3 mb-2 flex items-center gap-3 border border-white/30">
+                        <div class="w-10 h-10 bg-white/30 rounded-lg flex items-center justify-center">
+                            <span class="text-xs font-bold">${ext}</span>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <p class="text-sm font-semibold truncate">${fileInfo.originalname}</p>
+                            <p class="text-xs opacity-75">${Math.round(fileInfo.size / 1024)} KB</p>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            if (text) {
+                contentHTML += `<p class="break-words whitespace-pre-wrap">${text}</p>`;
+            }
+            
+            messageDiv.innerHTML = `
+                <div class="max-w-xs lg:max-w-md xl:max-w-lg">
+                    <div class="${isUser ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white' : 'bg-white text-gray-800 shadow-md'} rounded-2xl px-5 py-3 ${isUser ? 'rounded-br-sm' : 'rounded-bl-sm'}">
+                        ${!isUser ? '<div class="font-semibold text-sm text-indigo-600 mb-1">AI Basopeso</div>' : ''}
+                        ${contentHTML}
+                    </div>
+                    <span class="text-xs text-gray-400 mt-1 block ${isUser ? 'text-right' : 'text-left'} px-2">${timestamp}</span>
+                </div>
+            `;
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function showTypingIndicator() {
+            const typingDiv = document.createElement('div');
+            typingDiv.id = 'typingIndicator';
+            typingDiv.className = 'flex justify-start';
+            typingDiv.innerHTML = `
+                <div class="bg-white shadow-md rounded-2xl rounded-bl-sm px-5 py-3 flex items-center gap-2">
+                    <div class="flex gap-1">
+                        <div class="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style="animation-delay: 0s"></div>
+                        <div class="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+                        <div class="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style="animation-delay: 0.4s"></div>
+                    </div>
+                </div>
+            `;
+            chatMessages.appendChild(typingDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function removeTypingIndicator() {
+            const typingIndicator = document.getElementById('typingIndicator');
+            if (typingIndicator) typingIndicator.remove();
+        }
+
+        async function sendMessage() {
+            const message = messageInput.value.trim();
+            
+            if (!message && !selectedImageBase64 && !selectedFile) {
+                messageInput.classList.add('border-red-500');
+                setTimeout(() => messageInput.classList.remove('border-red-500'), 1000);
+                return;
+            }
+
+            // Jika ada file (bukan gambar), upload dulu
+            if (uploadType === 'file' && selectedFile) {
+                await uploadFile(selectedFile, message);
+                return;
+            }
+
+            // Jika ada gambar atau text, kirim ke /api/chat
+            const imageSrcForDisplay = selectedImageBase64 ? `data:image/jpeg;base64,${selectedImageBase64}` : null;
+            addMessage(message || '', true, imageSrcForDisplay);
+            
+            const dataToSend = {};
+            if (message) dataToSend.message = message;
+            if (selectedImageBase64) dataToSend.image = selectedImageBase64;
+            
+            messageInput.value = '';
+            removePreview();
+            showTypingIndicator();
+
+            try {
+                const response = await fetch("/api/chat", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(dataToSend),
+                });
+                
+                const data = await response.json();
+                removeTypingIndicator();
+                
+                if (data.error) {
+                    addMessage(`тЪая╕П Error: ${data.error}`, false);
+                } else {
+                    addMessage(data.reply || "Maaf, tidak ada balasan dari server.", false);
+                }
+            } catch (error) {
+                removeTypingIndicator();
+                addMessage("Maaf, terjadi kesalahan saat menghubungi server.", false);
+                console.error('Error:', error);
+            }
+        }
+
+        async function uploadFile(file, message) {
+            const formData = new FormData();
+            formData.append('file', file);
+
+            addMessage(message || `ЁЯУО Mengirim file: ${file.name}`, true, null, {
+                originalname: file.name,
+                size: file.size
+            });
+
+            messageInput.value = '';
+            removePreview();
+            showTypingIndicator();
+
+            try {
+                const response = await fetch("/api/upload", {
+                    method: "POST",
+                    body: formData,
+                });
+                
+                const data = await response.json();
+                removeTypingIndicator();
+                
+                if (data.success) {
+                    // Tampilkan pesan sukses dan reply dari AI
+                    addMessage(data.reply || data.message || "File berhasil dianalisis!", false);
+                } else {
+                    addMessage(`тЪая╕П Error: ${data.error || 'Gagal upload file'}`, false);
+                }
+            } catch (error) {
+                removeTypingIndicator();
+                addMessage("Maaf, terjadi kesalahan saat upload file. Pastikan server berjalan.", false);
+                console.error('Error:', error);
+            }
+        }
+
+        async function toggleHistory() {
+            const modal = document.getElementById('historyModal');
+            const historyContent = document.getElementById('historyContent');
+            
+            if (modal.classList.contains('hidden')) {
+                modal.classList.remove('hidden');
+                
+                try {
+                    const response = await fetch('/api/history');
+                    const data = await response.json();
+                    
+                    historyContent.innerHTML = '';
+                    
+                    if (data.history && data.history.length > 0) {
+                        data.history.forEach((item, index) => {
+                            const div = document.createElement('div');
+                            div.className = `p-4 rounded-lg ${item.role === 'user' ? 'bg-blue-50 border border-blue-200' : 'bg-gray-50 border border-gray-200'}`;
+                            
+                            let content = `
+                                <div class="flex items-start gap-3">
+                                    <div class="w-8 h-8 rounded-full ${item.role === 'user' ? 'bg-blue-500' : 'bg-indigo-500'} flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+                                        ${item.role === 'user' ? 'U' : 'AI'}
+                                    </div>
+                                    <div class="flex-1 min-w-0">
+                                        <p class="font-semibold text-sm ${item.role === 'user' ? 'text-blue-700' : 'text-indigo-700'} mb-1">
+                                            ${item.role === 'user' ? 'Anda' : 'AI Assistant'}
+                                        </p>
+                                        <p class="text-gray-700 whitespace-pre-wrap break-words">${item.message || ''}</p>
+                                        ${item.file ? `<div class="mt-2 text-xs text-gray-500">ЁЯУО ${item.file.originalname}</div>` : ''}
+                                        ${item.image ? `<div class="mt-2 text-xs text-gray-500">ЁЯЦ╝я╕П Gambar dikirim</div>` : ''}
+                                    </div>
+                                </div>
+                            `;
+                            
+                            div.innerHTML = content;
+                            historyContent.appendChild(div);
+                        });
+                    } else {
+                        historyContent.innerHTML = '<p class="text-gray-500 text-center">Belum ada history chat</p>';
+                    }
+                } catch (error) {
+                    historyContent.innerHTML = '<p class="text-red-500 text-center">Gagal memuat history</p>';
+                    console.error('Error loading history:', error);
+                }
+            } else {
+                modal.classList.add('hidden');
+            }
+        }
+
+        async function clearHistory() {
+            if (!confirm('Apakah Anda yakin ingin menghapus semua history chat?')) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/clear', {
+                    method: 'DELETE'
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    chatMessages.innerHTML = '<div class="flex justify-center"><span class="text-xs text-gray-500 bg-white px-4 py-2 rounded-full shadow-sm">Mulai percakapan baru</span></div>';
+                    alert('тЬЕ History berhasil dihapus!');
+                } else {
+                    alert('тЪая╕П Gagal menghapus history');
+                }
+            } catch (error) {
+                alert('тЪая╕П Terjadi kesalahan saat menghapus history');
+                console.error('Error:', error);
+            }
+        }
+
+        messageInput.focus();
+    </script>
+
+    <style>
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fade-in {
+            animation: fade-in 0.3s ease-out;
+        }
+
+        #chatMessages::-webkit-scrollbar,
+        #historyContent::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        #chatMessages::-webkit-scrollbar-track,
+        #historyContent::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        #chatMessages::-webkit-scrollbar-thumb,
+        #historyContent::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+
+        #chatMessages::-webkit-scrollbar-thumb:hover,
+        #historyContent::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</body>
+</html>
